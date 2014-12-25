@@ -4,6 +4,4 @@ Type "copyright", "credits" or "license()" for more information.
 >>> def d = 3
 SyntaxError: invalid syntax
 >>> d = 3
->>> d
-3
->>> 
+>>> d + 1
