@@ -1,8 +1,3 @@
-print("Hello World")
-print(765+789)
-print(678+654)
-print(6655+5784)
-
 print("------replicating coins & a thieving raven------")
 print(10 * 365) #=3650: Ten coins are replicated for 365 days (1 year)
 print(20 + 3650) #=3670: The count of original coins, plus the replicated ones
