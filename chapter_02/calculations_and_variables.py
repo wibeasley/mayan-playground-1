@@ -6,7 +6,7 @@ print(3 * 52) #=156: Three coins stolen each week, for 52 weeks (1 year)
 print(3670 - 156) #3514: The count of original & replicated coins, minus the raven's loot.
 print((20 + (10 * 365)) - (3 * 52)) #The same as above, but nested calculations
 
-print("------fred & john variables------")
+print("-------------------------fred & john variables-------------------------")
 fred=100
 print(fred)
 print("fred")
@@ -37,3 +37,4 @@ print(remaining_coins)
 magic_coins_per_day = 10 + 3 #New count of coins replicated in each batch
 remaining_coins = found_coins + (magic_coins_per_day * 365) - (stolen_coins_per_week * 52) 
 print(remaining_coins)
+number_of_coins
