@@ -59,3 +59,9 @@ print('I think it was that windy of a night that blew them away.')
 print()
 print('Regards')
 print('Malcolm Dithering')
+
+
+print(1000 * 'snirt')
+
+print(10000 * 'snirt')
+
