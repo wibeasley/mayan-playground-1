@@ -6,7 +6,7 @@ animal_name,age_acquired,favorite,donor
 "Bear",0,F,NA
 "May May",0,T,NA
 "Rosemary",0,T,NA
-"Gray",7,0,T,"Magnus"
+"Gray",7,T,"Magnus"
 "Henry",2,F,"Liza Raynor"
 "Spot",7,T,"Mama"
 "Turtle",2,T,NA
