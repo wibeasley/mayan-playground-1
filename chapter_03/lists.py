@@ -60,10 +60,7 @@ wizard_list.append('hemlock')
 wizard_list.append('mandrake')
 print(wizard_list)
  
+#print'```111222333444555666777888999000---===qqqwwweeerrrtttyyyuuuiiioooppp[[[]]]\\\aaasssdddfffggghhhjjjkkklll;;;'''zzzxxxcccvvvbbbnnnmmm,,,...///~~~!!!@@@###$$$%%%^^^&&&***((()))___+++{{{}}}|||:::"""<<<>>>???
 
-
-
-
-
-
-
+concatenated_strings = '''a''' + '''b'''
+print(concatenated_strings)
