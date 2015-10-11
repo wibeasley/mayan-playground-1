@@ -40,36 +40,36 @@ Here are the first two graphs we made.  The first one shows how many of the exis
 # Data Table
 In this table, each row represents one animal.  The characteristic of each animal are displayed as columns.
 
-animal_name    age_acquired  favorite   donor               within_age_order
-------------  -------------  ---------  -----------------  -----------------
-Bear                      0  FALSE      NA                                 1
-Lovey 1                   0  TRUE       Margaret Trulock                   2
-Lovey 2                   0  TRUE       Mama                               3
-May May                   0  TRUE       NA                                 4
-Pink bunny                0  FALSE      Gigi's friend                      5
-Rosemary                  0  TRUE       NA                                 6
-Bun Bun                   2  FALSE      NA                                 1
-Elie                      2  TRUE       Liza Raynor                        2
-Henry                     2  FALSE      Liza Raynor                        3
-Turtle                    2  TRUE       Sharin & Eric                      4
-Hello kitty               4  FALSE      Grammy                             1
-Bonny bee                 6  FALSE      William                            1
-Freckles                  6  FALSE      Grammy                             2
-Lady bug                  6  FALSE      Xavier                             3
-Paris                     6  FALSE      William                            4
-Star                      6  FALSE      Grammy                             5
-Unicorn                   6  FALSE      Grammy                             6
-Gray                      7  TRUE       Magnus                             1
-Spot                      7  TRUE       Mama                               2
-Sunny                     7  FALSE      Public library                     3
 
+|animal_name | age_acquired|favorite |donor            | within_age_order|
+|:-----------|------------:|:--------|:----------------|----------------:|
+|Bear        |            0|FALSE    |NA               |                1|
+|Lovey 1     |            0|TRUE     |Margaret Trulock |                2|
+|Lovey 2     |            0|TRUE     |Mama             |                3|
+|May May     |            0|TRUE     |NA               |                4|
+|Pink bunny  |            0|FALSE    |Gigi's friend    |                5|
+|Rosemary    |            0|TRUE     |NA               |                6|
+|Bun Bun     |            2|FALSE    |NA               |                1|
+|Elie        |            2|TRUE     |Liza Raynor      |                2|
+|Henry       |            2|FALSE    |Liza Raynor      |                3|
+|Turtle      |            2|TRUE     |Sharin & Eric    |                4|
+|Hello kitty |            4|FALSE    |Grammy           |                1|
+|Bonny bee   |            6|FALSE    |William          |                1|
+|Freckles    |            6|FALSE    |Grammy           |                2|
+|Lady bug    |            6|FALSE    |Xavier           |                3|
+|Paris       |            6|FALSE    |William          |                4|
+|Star        |            6|FALSE    |Grammy           |                5|
+|Unicorn     |            6|FALSE    |Grammy           |                6|
+|Gray        |            7|TRUE     |Magnus           |                1|
+|Spot        |            7|TRUE     |Mama             |                2|
+|Sunny       |            7|FALSE    |Public library   |                3|
 
 # Session Information
 For the sake of documentation and reproducibility, the current report was rendered on a system using the following software.
 
 
 ```
-Report rendered by mmbeasley at 2015-10-11, 12:43 -0500
+Report rendered by mmbeasley at 2015-10-11, 12:51 -0500
 ```
 
 ```

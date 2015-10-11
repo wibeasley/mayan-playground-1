@@ -50,7 +50,5 @@ ggplot(ds_age, aes(x=age_acquired, y=animal_count)) +
   scale_x_continuous(breaks=ds_possible_ages$age_acquired) +
   theme_light()
 
-
 # @knitr table -------------------------------------------------------------------
-knitr::kable(ds_animal)
-
+knitr::kable(ds_animal, format = "markdown")
