@@ -27,6 +27,12 @@ ds_age <- ds_animal %>%
   ) 
 # ds_age
 
+ds_animal <- ds_animal %>%
+  dplyr::arrange(age_acquired, animal_name) %>%
+  dplyr::group_by(age_acquired) %>%
+  dplyr::mutate(
+    within_age_order = seq_len(n())
+  )
 # #Define the palettes
 # colorCenter <- RColorBrewer::brewer.pal(n=3, name="Pastel1")[2:1]
 # names(colorCenter) <- levels(ds$Center)
@@ -34,4 +40,17 @@ ds_age <- ds_animal %>%
 
 # @knitr marginals ---------------------------------------------------------------
 ggplot(ds_age, aes(x=age_acquired, y=animal_count)) +
-  geom_bar(stat="identity")
+  geom_bar(stat="identity", width=1, color="gray30", fill="gray70") +
+  scale_x_continuous(breaks=ds_possible_ages$age_acquired) +
+  theme_light()
+
+ggplot(ds_age, aes(x=age_acquired, y=animal_count)) +
+  geom_bar(stat="identity", width=1, color="gray30", fill="gray70") +
+  geom_text(data=ds_animal, aes(y=within_age_order, label=animal_name), size=4, vjust = 1.1) +
+  scale_x_continuous(breaks=ds_possible_ages$age_acquired) +
+  theme_light()
+
+
+# @knitr table -------------------------------------------------------------------
+knitr::kable(ds_animal)
+

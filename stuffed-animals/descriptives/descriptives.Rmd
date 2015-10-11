@@ -3,6 +3,7 @@ title: Stuffed Animals -Descriptive Statistics Report
 output:
   html_document:
     keep_md: yes
+    toc: true
 ---
 
 This report describes the existing collection of Maya's stuffed animals.
@@ -58,14 +59,26 @@ read_chunk("./stuffed-animals/descriptives/descriptives.R") #This allows knitr t
 ```{r tweak_data, echo=echoChunks, results='show', message=FALSE}
 ```
 
-## Notes
+# Notes
 
-**Note 1**: The current report covers `r nrow(ds_animal)` animals.
+1. The current report covers `r nrow(ds_animal)` animals.  These include only the animals that still exist in our house, and not the ones that have been lost or donated.
 
+2. This list is incomplete.  There are still more animals in the house that have yet to be added to the inventory.
 
 # Marginals
+Here are the first two graphs we made.  The first one shows how many of the existing animals Maya received at each year of her life.  The second graph is like the first, but lists the animal names on top of the bars.
+
 ```{r marginals, echo=echoChunks, message=TRUE}
 ```
+
+# Data Table
+In this table, each row represents one animal.  The characteristic of each animal are displayed as columns.
+```{r table, echo=echoChunks, message=TRUE}
+```
+
+
+# Session Information
+For the sake of documentation and reproducibility, the current report was rendered on a system using the following software.
 
 ```{r session_info, echo=FALSE}
 cat("Report rendered by", Sys.info()["user"], "at", strftime(Sys.time(), "%Y-%m-%d, %H:%M %z"))
