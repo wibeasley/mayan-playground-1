@@ -1,191 +1,191 @@
-"animal_id_1","animal_id_2","animal_name_1","animal_name_2","distance"
-1,2,"Elie","Bun Bun",NA
-1,3,"Elie","Lovey 1",NA
-1,4,"Elie","Lovey 2",NA
-1,5,"Elie","Bear",NA
-1,6,"Elie","May May",NA
-1,7,"Elie","Rosemary",NA
-1,8,"Elie","Gray",NA
-1,9,"Elie","Henry",NA
-1,10,"Elie","Spot",NA
-1,11,"Elie","Turtle",NA
-1,12,"Elie","Star",NA
-1,13,"Elie","Unicorn",NA
-1,14,"Elie","Freckles",NA
-1,15,"Elie","Sunny",NA
-1,16,"Elie","Pink bunny",NA
-1,17,"Elie","Hello kitty",NA
-1,18,"Elie","Paris",NA
-1,19,"Elie","Lady bug",NA
-1,20,"Elie","Bonny bee",NA
-2,3,"Bun Bun","Lovey 1",NA
-2,4,"Bun Bun","Lovey 2",NA
-2,5,"Bun Bun","Bear",NA
-2,6,"Bun Bun","May May",NA
-2,7,"Bun Bun","Rosemary",NA
-2,8,"Bun Bun","Gray",NA
-2,9,"Bun Bun","Henry",NA
-2,10,"Bun Bun","Spot",NA
-2,11,"Bun Bun","Turtle",NA
-2,12,"Bun Bun","Star",NA
-2,13,"Bun Bun","Unicorn",NA
-2,14,"Bun Bun","Freckles",NA
-2,15,"Bun Bun","Sunny",NA
-2,16,"Bun Bun","Pink bunny",NA
-2,17,"Bun Bun","Hello kitty",NA
-2,18,"Bun Bun","Paris",NA
-2,19,"Bun Bun","Lady bug",NA
-2,20,"Bun Bun","Bonny bee",NA
-3,4,"Lovey 1","Lovey 2",NA
-3,5,"Lovey 1","Bear",NA
-3,6,"Lovey 1","May May",NA
-3,7,"Lovey 1","Rosemary",NA
-3,8,"Lovey 1","Gray",NA
-3,9,"Lovey 1","Henry",NA
-3,10,"Lovey 1","Spot",NA
-3,11,"Lovey 1","Turtle",NA
-3,12,"Lovey 1","Star",NA
-3,13,"Lovey 1","Unicorn",NA
-3,14,"Lovey 1","Freckles",NA
-3,15,"Lovey 1","Sunny",NA
-3,16,"Lovey 1","Pink bunny",NA
-3,17,"Lovey 1","Hello kitty",NA
-3,18,"Lovey 1","Paris",NA
-3,19,"Lovey 1","Lady bug",NA
-3,20,"Lovey 1","Bonny bee",NA
-4,5,"Lovey 2","Bear",NA
-4,6,"Lovey 2","May May",NA
-4,7,"Lovey 2","Rosemary",NA
-4,8,"Lovey 2","Gray",NA
-4,9,"Lovey 2","Henry",NA
-4,10,"Lovey 2","Spot",NA
-4,11,"Lovey 2","Turtle",NA
-4,12,"Lovey 2","Star",NA
-4,13,"Lovey 2","Unicorn",NA
-4,14,"Lovey 2","Freckles",NA
-4,15,"Lovey 2","Sunny",NA
-4,16,"Lovey 2","Pink bunny",NA
-4,17,"Lovey 2","Hello kitty",NA
-4,18,"Lovey 2","Paris",NA
-4,19,"Lovey 2","Lady bug",NA
-4,20,"Lovey 2","Bonny bee",NA
-5,6,"Bear","May May",NA
-5,7,"Bear","Rosemary",NA
-5,8,"Bear","Gray",NA
-5,9,"Bear","Henry",NA
-5,10,"Bear","Spot",NA
-5,11,"Bear","Turtle",NA
-5,12,"Bear","Star",NA
-5,13,"Bear","Unicorn",NA
-5,14,"Bear","Freckles",NA
-5,15,"Bear","Sunny",NA
-5,16,"Bear","Pink bunny",NA
-5,17,"Bear","Hello kitty",NA
-5,18,"Bear","Paris",NA
-5,19,"Bear","Lady bug",NA
-5,20,"Bear","Bonny bee",NA
-6,7,"May May","Rosemary",NA
-6,8,"May May","Gray",NA
-6,9,"May May","Henry",NA
-6,10,"May May","Spot",NA
-6,11,"May May","Turtle",NA
-6,12,"May May","Star",NA
-6,13,"May May","Unicorn",NA
-6,14,"May May","Freckles",NA
-6,15,"May May","Sunny",NA
-6,16,"May May","Pink bunny",NA
-6,17,"May May","Hello kitty",NA
-6,18,"May May","Paris",NA
-6,19,"May May","Lady bug",NA
-6,20,"May May","Bonny bee",NA
-7,8,"Rosemary","Gray",NA
-7,9,"Rosemary","Henry",NA
-7,10,"Rosemary","Spot",NA
-7,11,"Rosemary","Turtle",NA
-7,12,"Rosemary","Star",NA
-7,13,"Rosemary","Unicorn",NA
-7,14,"Rosemary","Freckles",NA
-7,15,"Rosemary","Sunny",NA
-7,16,"Rosemary","Pink bunny",NA
-7,17,"Rosemary","Hello kitty",NA
-7,18,"Rosemary","Paris",NA
-7,19,"Rosemary","Lady bug",NA
-7,20,"Rosemary","Bonny bee",NA
-8,9,"Gray","Henry",NA
-8,10,"Gray","Spot",NA
-8,11,"Gray","Turtle",NA
-8,12,"Gray","Star",NA
-8,13,"Gray","Unicorn",NA
-8,14,"Gray","Freckles",NA
-8,15,"Gray","Sunny",NA
-8,16,"Gray","Pink bunny",NA
-8,17,"Gray","Hello kitty",NA
-8,18,"Gray","Paris",NA
-8,19,"Gray","Lady bug",NA
-8,20,"Gray","Bonny bee",NA
-9,10,"Henry","Spot",NA
-9,11,"Henry","Turtle",NA
-9,12,"Henry","Star",NA
-9,13,"Henry","Unicorn",NA
-9,14,"Henry","Freckles",NA
-9,15,"Henry","Sunny",NA
-9,16,"Henry","Pink bunny",NA
-9,17,"Henry","Hello kitty",NA
-9,18,"Henry","Paris",NA
-9,19,"Henry","Lady bug",NA
-9,20,"Henry","Bonny bee",NA
-10,11,"Spot","Turtle",NA
-10,12,"Spot","Star",NA
-10,13,"Spot","Unicorn",NA
-10,14,"Spot","Freckles",NA
-10,15,"Spot","Sunny",NA
-10,16,"Spot","Pink bunny",NA
-10,17,"Spot","Hello kitty",NA
-10,18,"Spot","Paris",NA
-10,19,"Spot","Lady bug",NA
-10,20,"Spot","Bonny bee",NA
-11,12,"Turtle","Star",NA
-11,13,"Turtle","Unicorn",NA
-11,14,"Turtle","Freckles",NA
-11,15,"Turtle","Sunny",NA
-11,16,"Turtle","Pink bunny",NA
-11,17,"Turtle","Hello kitty",NA
-11,18,"Turtle","Paris",NA
-11,19,"Turtle","Lady bug",NA
-11,20,"Turtle","Bonny bee",NA
-12,13,"Star","Unicorn",NA
-12,14,"Star","Freckles",NA
-12,15,"Star","Sunny",NA
-12,16,"Star","Pink bunny",NA
-12,17,"Star","Hello kitty",NA
-12,18,"Star","Paris",NA
-12,19,"Star","Lady bug",NA
-12,20,"Star","Bonny bee",NA
-13,14,"Unicorn","Freckles",NA
-13,15,"Unicorn","Sunny",NA
-13,16,"Unicorn","Pink bunny",NA
-13,17,"Unicorn","Hello kitty",NA
-13,18,"Unicorn","Paris",NA
-13,19,"Unicorn","Lady bug",NA
-13,20,"Unicorn","Bonny bee",NA
-14,15,"Freckles","Sunny",NA
-14,16,"Freckles","Pink bunny",NA
-14,17,"Freckles","Hello kitty",NA
-14,18,"Freckles","Paris",NA
-14,19,"Freckles","Lady bug",NA
-14,20,"Freckles","Bonny bee",NA
-15,16,"Sunny","Pink bunny",NA
-15,17,"Sunny","Hello kitty",NA
-15,18,"Sunny","Paris",NA
-15,19,"Sunny","Lady bug",NA
-15,20,"Sunny","Bonny bee",NA
-16,17,"Pink bunny","Hello kitty",NA
-16,18,"Pink bunny","Paris",NA
-16,19,"Pink bunny","Lady bug",NA
-16,20,"Pink bunny","Bonny bee",NA
-17,18,"Hello kitty","Paris",NA
-17,19,"Hello kitty","Lady bug",NA
-17,20,"Hello kitty","Bonny bee",NA
-18,19,"Paris","Lady bug",NA
-18,20,"Paris","Bonny bee",NA
-19,20,"Lady bug","Bonny bee",NA
+animal_id_1,animal_id_2,animal_name_1,animal_name_2,distance
+1,2,Elie,Bun Bun,2
+1,3,Elie,Lovey 1,2
+1,4,Elie,Lovey 2,2
+1,5,Elie,Bear,9
+1,6,Elie,May May,5
+1,7,Elie,Rosemary,1
+1,8,Elie,Gray,1
+1,9,Elie,Henry,8
+1,10,Elie,Spot,5
+1,11,Elie,Turtle,4
+1,12,Elie,Star,8
+1,13,Elie,Unicorn,8
+1,14,Elie,Freckles,7
+1,15,Elie,Sunny,3
+1,16,Elie,Pink bunny,9
+1,17,Elie,Hello kitty,8
+1,18,Elie,Paris,5
+1,19,Elie,Lady bug,9
+1,20,Elie,Bonny bee,9
+2,3,Bun Bun,Lovey 1,4
+2,4,Bun Bun,Lovey 2,4
+2,5,Bun Bun,Bear,7
+2,6,Bun Bun,May May,4
+2,7,Bun Bun,Rosemary,2
+2,8,Bun Bun,Gray,3
+2,9,Bun Bun,Henry,9
+2,10,Bun Bun,Spot,5
+2,11,Bun Bun,Turtle,6
+2,12,Bun Bun,Star,7
+2,13,Bun Bun,Unicorn,9
+2,14,Bun Bun,Freckles,9
+2,15,Bun Bun,Sunny,8
+2,16,Bun Bun,Pink bunny,2
+2,17,Bun Bun,Hello kitty,8
+2,18,Bun Bun,Paris,5
+2,19,Bun Bun,Lady bug,9
+2,20,Bun Bun,Bonny bee,9
+3,4,Lovey 1,Lovey 2,0
+3,5,Lovey 1,Bear,5
+3,6,Lovey 1,May May,5
+3,7,Lovey 1,Rosemary,3
+3,8,Lovey 1,Gray,1
+3,9,Lovey 1,Henry,9
+3,10,Lovey 1,Spot,3
+3,11,Lovey 1,Turtle,4
+3,12,Lovey 1,Star,9
+3,13,Lovey 1,Unicorn,8
+3,14,Lovey 1,Freckles,8
+3,15,Lovey 1,Sunny,6
+3,16,Lovey 1,Pink bunny,8
+3,17,Lovey 1,Hello kitty,6
+3,18,Lovey 1,Paris,3
+3,19,Lovey 1,Lady bug,9
+3,20,Lovey 1,Bonny bee,9
+4,5,Lovey 2,Bear,7
+4,6,Lovey 2,May May,4
+4,7,Lovey 2,Rosemary,3
+4,8,Lovey 2,Gray,1
+4,9,Lovey 2,Henry,9
+4,10,Lovey 2,Spot,3
+4,11,Lovey 2,Turtle,4
+4,12,Lovey 2,Star,7
+4,13,Lovey 2,Unicorn,9
+4,14,Lovey 2,Freckles,8
+4,15,Lovey 2,Sunny,4
+4,16,Lovey 2,Pink bunny,8
+4,17,Lovey 2,Hello kitty,7
+4,18,Lovey 2,Paris,3
+4,19,Lovey 2,Lady bug,9
+4,20,Lovey 2,Bonny bee,9
+5,6,Bear,May May,1
+5,7,Bear,Rosemary,1
+5,8,Bear,Gray,9
+5,9,Bear,Henry,2
+5,10,Bear,Spot,8
+5,11,Bear,Turtle,9
+5,12,Bear,Star,3
+5,13,Bear,Unicorn,1
+5,14,Bear,Freckles,2
+5,15,Bear,Sunny,6
+5,16,Bear,Pink bunny,3
+5,17,Bear,Hello kitty,2
+5,18,Bear,Paris,5
+5,19,Bear,Lady bug,1
+5,20,Bear,Bonny bee,5
+6,7,May May,Rosemary,2
+6,8,May May,Gray,2
+6,9,May May,Henry,8
+6,10,May May,Spot,9
+6,11,May May,Turtle,2
+6,12,May May,Star,7
+6,13,May May,Unicorn,9
+6,14,May May,Freckles,8
+6,15,May May,Sunny,4
+6,16,May May,Pink bunny,
+6,17,May May,Hello kitty,
+6,18,May May,Paris,NA
+6,19,May May,Lady bug,NA
+6,20,May May,Bonny bee,NA
+7,8,Rosemary,Gray,NA
+7,9,Rosemary,Henry,NA
+7,10,Rosemary,Spot,NA
+7,11,Rosemary,Turtle,NA
+7,12,Rosemary,Star,NA
+7,13,Rosemary,Unicorn,NA
+7,14,Rosemary,Freckles,NA
+7,15,Rosemary,Sunny,NA
+7,16,Rosemary,Pink bunny,NA
+7,17,Rosemary,Hello kitty,NA
+7,18,Rosemary,Paris,NA
+7,19,Rosemary,Lady bug,NA
+7,20,Rosemary,Bonny bee,NA
+8,9,Gray,Henry,10
+8,10,Gray,Spot,NA
+8,11,Gray,Turtle,NA
+8,12,Gray,Star,NA
+8,13,Gray,Unicorn,NA
+8,14,Gray,Freckles,NA
+8,15,Gray,Sunny,NA
+8,16,Gray,Pink bunny,NA
+8,17,Gray,Hello kitty,NA
+8,18,Gray,Paris,NA
+8,19,Gray,Lady bug,NA
+8,20,Gray,Bonny bee,NA
+9,10,Henry,Spot,NA
+9,11,Henry,Turtle,NA
+9,12,Henry,Star,NA
+9,13,Henry,Unicorn,NA
+9,14,Henry,Freckles,NA
+9,15,Henry,Sunny,NA
+9,16,Henry,Pink bunny,NA
+9,17,Henry,Hello kitty,NA
+9,18,Henry,Paris,NA
+9,19,Henry,Lady bug,NA
+9,20,Henry,Bonny bee,NA
+10,11,Spot,Turtle,NA
+10,12,Spot,Star,NA
+10,13,Spot,Unicorn,NA
+10,14,Spot,Freckles,NA
+10,15,Spot,Sunny,NA
+10,16,Spot,Pink bunny,NA
+10,17,Spot,Hello kitty,NA
+10,18,Spot,Paris,NA
+10,19,Spot,Lady bug,NA
+10,20,Spot,Bonny bee,NA
+11,12,Turtle,Star,NA
+11,13,Turtle,Unicorn,NA
+11,14,Turtle,Freckles,NA
+11,15,Turtle,Sunny,NA
+11,16,Turtle,Pink bunny,NA
+11,17,Turtle,Hello kitty,NA
+11,18,Turtle,Paris,NA
+11,19,Turtle,Lady bug,NA
+11,20,Turtle,Bonny bee,NA
+12,13,Star,Unicorn,NA
+12,14,Star,Freckles,NA
+12,15,Star,Sunny,NA
+12,16,Star,Pink bunny,NA
+12,17,Star,Hello kitty,NA
+12,18,Star,Paris,NA
+12,19,Star,Lady bug,NA
+12,20,Star,Bonny bee,NA
+13,14,Unicorn,Freckles,NA
+13,15,Unicorn,Sunny,NA
+13,16,Unicorn,Pink bunny,NA
+13,17,Unicorn,Hello kitty,NA
+13,18,Unicorn,Paris,NA
+13,19,Unicorn,Lady bug,NA
+13,20,Unicorn,Bonny bee,NA
+14,15,Freckles,Sunny,NA
+14,16,Freckles,Pink bunny,NA
+14,17,Freckles,Hello kitty,NA
+14,18,Freckles,Paris,NA
+14,19,Freckles,Lady bug,NA
+14,20,Freckles,Bonny bee,NA
+15,16,Sunny,Pink bunny,NA
+15,17,Sunny,Hello kitty,NA
+15,18,Sunny,Paris,NA
+15,19,Sunny,Lady bug,NA
+15,20,Sunny,Bonny bee,NA
+16,17,Pink bunny,Hello kitty,NA
+16,18,Pink bunny,Paris,NA
+16,19,Pink bunny,Lady bug,NA
+16,20,Pink bunny,Bonny bee,NA
+17,18,Hello kitty,Paris,NA
+17,19,Hello kitty,Lady bug,NA
+17,20,Hello kitty,Bonny bee,NA
+18,19,Paris,Lady bug,NA
+18,20,Paris,Bonny bee,NA
+19,20,Lady bug,Bonny bee,NA

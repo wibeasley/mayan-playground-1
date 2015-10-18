@@ -7,13 +7,10 @@ rm(list=ls(all=TRUE))  #Clear the variables from previous runs.
 library(ggplot2)
 library(magrittr) #Pipes
 requireNamespace("dplyr", quietly=TRUE)
-# requireNamespace("plyr", quietly=TRUE)
-# requireNamespace("testit", quietly=TRUE)
 
 # @knitr declare_globals ---------------------------------------------------------
 path_input <- "./stuffed-animals/data/animal.csv"
 path_output <- "./stuffed-animals/data/animal_distance.csv"
-
 
 # @knitr load_data ---------------------------------------------------------------
 ds_animal <- read.csv(path_input, stringsAsFactors=FALSE)
