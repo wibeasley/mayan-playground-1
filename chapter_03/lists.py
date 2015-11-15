@@ -37,13 +37,13 @@ print(6 + 1)
 print("6" + "1")
 #Throws error: "6" + 1
 print(46 + 49)
-#qqq www eee rrr ttt yyy uuu iii ooo ppp aaa sss ddd fff ggg hhh jjj
+letterspart2 =["qqq" ,"www", "eee" ,"rrr" ,"ttt", "yyy", "uuu", "iii", "ooo" ,"ppp", "aaa", "sss", "ddd", "fff", "ggg", "hhh", "jjj",]
+print(letterspart2)
 #kkk lll zzz xxx ccc vvv bbb nnn mmm QQQ WWW EEE RRR TTT YYY UUU III
 # OOO PPP AAA SSS DDD FFF GGG HHH JJJ KKK LLL ZZZ XXX CCC VVV BBB NNN
 #MMM ``` 111 222 333 444 555 666 777 888 999 000 --- === [[[ ]]] ;;;
 #''' ,,, ... /// \\\ ~~~ !!! @@@ ### $$$ %%% ^^^ &&& *** ((( ))) ___ +
 #++ {{{ }}} ||| ::: """ <<< >>> ??? 
-
 numbers = [1, 2, 3, 4]
 print(numbers)
 strings = ['I', 'kicked', 'my', 'toe', 'and', 'it', 'is', 'sore']
@@ -55,7 +55,7 @@ print(mylist)
 wizard_list.append('bear burp')
 print(wizard_list)
 print(wizard_list)
-wizard_list.append('swanp gas')
+wizard_list.append('swamp gas')
 wizard_list.append('hemlock')
 wizard_list.append('mandrake')
 print(wizard_list)
@@ -64,3 +64,11 @@ print(wizard_list)
 
 concatenated_strings = '''a''' + '''b'''
 print(concatenated_strings)
+
+
+list1 = [10, 20, 30, 40]
+list2 = ['I', 'ate', 'chocolate', 'and', 'I', 'want', 'more']
+print([list1, list2])
+print(list1 + list2)
+print(list1 * 5)
+
