@@ -20,31 +20,11 @@ requireNamespace("ggthemes")
 # ---- declare-globals ---------------------------------------------------------
 options(show.signif.stars=F) #Turn off the annotations on p-values
 
-# path_input <- "./data-phi-free/derived/motor-trend-car-test.rds"
-data_string <- '
-date,milestone,position_y
-6700 BCE,"map of Catal Hyuk - earliest known map",4
-3000 BCE,"Babylonian clay tablets including map of present day Iraq",8
-3000 BCE,"first map of the moon",13
-600 BCE,"Pythagoas determines earth is a sphere",18
-200 BCE,"Eratosthenes determines circumpherence of the earth",-5
-150 BCE,"Hipparchus creates early system of latitude based on the sun",-12
-150 CE,"Ptolemy creates world map with coordinates for 8,000 locations",-3
-476 CE,"Roman Empire collapses, scientific cartography halts in Europe",-18
-830 CE,"Al-Khwarizmi produces wowrld map partly based on Ptolemy\'s work",-20
-1030 CE,"Al-Biruni develops triangulation",20
-1375 CE,"Abraham Cresques produces world map using portolan maps",2
-1569 CE,"Gerardus Mercator publishes his first projection for navigation",15
-1730 CE,"sextant developed",0
-1763 CE,"John Harrison develops acurate clock for determining longitude at sea",5
-1802 CE,"Nathaniel Bowditch\'s The New American Practical Navigator is first published",10
-1884 CE,"International Meridian Conference chooses Greenwich as prime meridian",-8
-1990 CE,"high-quality maps produced from aerial and satellite imagery and GIS and GPS developed",-15
-2000 CE,"the space shuttle Endeavour maps more then 80 percent of the earth\'s surface in 10 days",-10
-'
+path_input <- "./cartography-timeline/timeline.csv"
+
 
 # ---- load-data ---------------------------------------------------------------
-ds <- readr::read_csv(data_string, TRUE, skip=1) # 'ds' stands for 'datasets'
+ds <- readr::read_csv(path_input) # 'ds' stands for 'datasets'
 
 # ---- tweak-data --------------------------------------------------------------
 pattern  <- "^(\\d{3,4})\\s(BCE|CE)$"
