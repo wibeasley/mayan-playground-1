@@ -61,9 +61,10 @@ ds <- ds %>%
 
 ggplot(ds, aes(x=date, y=y2, label=milestone))  +
   geom_point() +
-  geom_text(hjust=0) +
+  geom_text(hjust=0, color="tan") +
   scale_x_continuous(breaks=c(-7000,  2000)) +
-  coord_cartesian(xlim=c(-6800, 200000)) #+
+  coord_cartesian(xlim=c(-6800, 200000)) +
+  ggthemes::theme_hc(bgcolor = "darkunica")
   # ggthemes::theme_solarized()
 
 
