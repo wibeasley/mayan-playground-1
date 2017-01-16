@@ -31,15 +31,15 @@ pattern  <- "^(\\d{3,4})\\s(BCE|CE)$"
 ds <- ds %>%
   dplyr::mutate(
     is_bc       = (gsub(pattern, "\\2", date) == "BCE"),
-    date        = as.integer(gsub(pattern, "\\1", date)),
-    date        = ifelse(is_bc, -date, date),
-    y2          = order(-date)
+    year        = as.integer(gsub(pattern, "\\1", date)),
+    year        = ifelse(is_bc, -year, year),
+    y2          = order(-year)
   )
 
 
 # ---- graph-continuous -------------------------------------------------------------------
 
-ggplot(ds, aes(x=date, y=y2, label=milestone))  +
+ggplot(ds, aes(x=year, y=y2, label=label_long))  +
   geom_point() +
   geom_text(hjust=0, color="tan") +
   scale_x_continuous(breaks=c(-7000,  2000)) +
