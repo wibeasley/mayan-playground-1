@@ -33,18 +33,29 @@ ds <- ds %>%
     is_bc       = (gsub(pattern, "\\2", date) == "BCE"),
     year        = as.integer(gsub(pattern, "\\1", date)),
     year        = ifelse(is_bc, -year, year),
+    year_rank   = seq.int(from=min(year), to=max(year), length.out=n()),
     y2          = order(-year)
   )
 
 
 # ---- graph-continuous -------------------------------------------------------------------
+x_point   <- 0
+x_date    <- 0.3
+x_label   <- 0.6
+x_buffer  <- 0.05
 
-ggplot(ds, aes(x=year, y=y2, label=label_long))  +
-  geom_point() +
-  geom_text(hjust=0, color="tan") +
-  scale_x_continuous(breaks=c(-7000,  2000)) +
-  coord_cartesian(xlim=c(-6800, 200000)) +
-  ggthemes::theme_hc(bgcolor = "darkunica")
+ggplot(ds, aes(x=x_point, y=year, label=label_long))  +
+  geom_point(shape=1, size=2, color="cyan") +
+  geom_text(aes(x=x_label, y=year_rank), hjust=0, color=rgb(255, 0, 255, max=255)) +
+  geom_segment(aes(x=x_point, xend=x_label, y=year, yend=year_rank), color="blue") +
+  scale_x_continuous(breaks=NULL) +
+  scale_y_continuous(breaks=seq(-8000, 2000, 2000)) +
+  # scale_colour_solarized("blue") +
+  coord_cartesian(xlim=c(x_point-.05, 3), ylim=c(-7000, 2200), expand=FALSE) +
+  ggthemes:: theme_solarized_2(light = FALSE) +
+  # coord_cartesian(xlim=c(-6800, 200000)) +
+  # ggthemes::theme_hc(bgcolor = "darkunica") +
   # ggthemes::theme_solarized()
+  labs(x=NULL)
 
 
