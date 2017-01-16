@@ -61,13 +61,25 @@ ggplot(ds, aes(x=x_point, y=year, label=label_long, color=category))  +
     labels = c("8000 BCE", "6000 BCE", "4000 BCE", "2000 BCE", "0", "2000 CE")
   ) +
   scale_color_manual(values=palette_category) +
-  # scale_colour_solarized("blue") +
+  coord_cartesian(xlim=c(x_point-.05, 3), ylim=c(-7000, 2200), expand=FALSE) +
+  ggthemes:: theme_solarized_2(light = FALSE) +
+  theme(legend.position=c(1, 0), legend.justification=c(1,0)) +
+  guides(colour = guide_legend(override.aes = list(size=10, alpha=1))) +
+  labs(x=NULL, y=NULL, color=NULL)
+
+ggplot(ds, aes(x=x_point, y=year, label=label_long))  +
+  geom_point(shape=1, size=2, color=palette_category[1]) +
+  geom_text(aes(x=x_label, y=year_rank), hjust=0, color=palette_category[1]) +
+  geom_segment(aes(x=x_point, xend=x_label, y=year, yend=year_rank), alpha=.2, color=palette_category[1]) +
+  scale_x_continuous(breaks=NULL) +
+  scale_y_continuous(
+    breaks = seq(-8000, 2000, 2000),
+    labels = c("8000 BCE", "6000 BCE", "4000 BCE", "2000 BCE", "0", "2000 CE")
+  ) +
   coord_cartesian(xlim=c(x_point-.05, 3), ylim=c(-7000, 2200), expand=FALSE) +
   ggthemes:: theme_solarized_2(light = FALSE) +
   guides(colour = guide_legend(override.aes = list(size=10, alpha=1))) +
-  # coord_cartesian(xlim=c(-6800, 200000)) +
-  # ggthemes::theme_hc(bgcolor = "darkunica") +
-  # ggthemes::theme_solarized()
   labs(x=NULL, y=NULL, color=NULL)
+
 
 

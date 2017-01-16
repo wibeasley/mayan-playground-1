@@ -30,13 +30,13 @@ This report covers the analyses used in the ZZZ project (Marcus Mark, PI).
 # Summary
 
 # Graph on Continuous Time
-![](figure-png/graph-continuous-1.png)<!-- -->
+![](figure-png/graph-continuous-1.png)<!-- -->![](figure-png/graph-continuous-2.png)<!-- -->
 
 # Session Information
 For the sake of documentation and reproducibility, the current report was rendered on a system using the following software.
 
 ```
-Report rendered by Will at 2017-01-16, 15:05 -0600 in 2 seconds.
+Report rendered by Will at 2017-01-16, 15:17 -0600 in 4 seconds.
 ```
 
 ```

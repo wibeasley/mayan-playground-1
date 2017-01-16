@@ -7,13 +7,13 @@ date,label_long,label_short,category,position_y
 150 BCE,Hipparchus creates early system of latitude based on the sun,latitude developed,math,-12
 150 CE,"Ptolemy creates world map with coordinates for 8,000 locations",Ptolemy map,map,-3
 476 CE,"Roman Empire collapses, scientific cartography halts in Europe",Rome collapses,other,-18
-830 CE,Al-Khwarizmi produces world map partly based on Ptolemy\'s work,Al-Khwarizmi map,map,-20
+830 CE,Al-Khwarizmi produces world map partly based on Ptolemy's work,Al-Khwarizmi map,map,-20
 1030 CE,Al-Biruni develops triangulation,Triangulation,math,20
 1375 CE,Abraham Cresques produces world map using portolan maps,Creqsues map,map,2
 1569 CE,Gerardus Mercator publishes his first projection for navigation,Mercator projection,math,15
 1730 CE,sextant developed,sextant,tech,0
 1763 CE,John Harrison develops acurate clock for determining longitude at sea,clock for longitude,math,5
-1802 CE,Nathaniel Bowditch\'s The New American Practical Navigator is first published,Bowditch book,math,10
+1802 CE,Nathaniel Bowditch's The New American Practical Navigator is first published (3),Bowditch book,math,10
 1884 CE,International Meridian Conference chooses Greenwich as prime meridian,prime meridian,other,-8
 1990 CE,high-quality maps produced from aerial and satellite imagery and GIS and GPS developed,satellite,tech,-15
-2000 CE,space shuttle Endeavour maps more then 80 percent of the earth\'s surface in 10 days,Endeavour,map,-10
+2000 CE,space shuttle Endeavour maps more then 80 percent of the earth's surface in 10 days,Endeavour,map,-10
