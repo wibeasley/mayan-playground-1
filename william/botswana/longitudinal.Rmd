@@ -72,6 +72,7 @@ read_chunk("./william/botswana/longitudinal.R") #This allows knitr to call chunk
 1. The current report covers `r dplyr::n_distinct(ds$year)` years.
 
 ### Unanswered Questions
+1. How does these countries compare to North America?
 
  
 ### Answered Questions

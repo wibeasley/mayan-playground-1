@@ -35,6 +35,7 @@ This report covers the graphs of life.
 1. The current report covers 51 years.
 
 ### Unanswered Questions
+1. How does these countries compare to North America?
 
  
 ### Answered Questions
@@ -51,12 +52,24 @@ This report covers the graphs of life.
 
 Primary completion rate is the percentage of students completing the last year of primary school. It is calculated by taking the total number of students in the last grade of primary school, minus the number of repeaters in that grade, divided by the total number of children of official graduation age. The ratio can exceed 100% due to over-aged and under-aged children who enter primary school late/early and/or repeat grades. United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.![](figure-png/spaghetti-2.png)<!-- -->
 
+### Food Supply
+
+The total supply of food available in a country, divided by the population and 365 (the number of days in the year).
+
+Kilocalories available, on average, for each person, each day. Calories measures the energy content of the food. The required intake per day varies depending on sveral factors, e.g. activity level, weight, gender and age, but it is normally in the range of 1500-3000 kilocalories per day. One banana contains approximatley 100 kilocalories.
+
+Source: Gapminder and http://www.fao.org/faostat/en/#data/CC![](figure-png/spaghetti-3.png)<!-- -->
+
+### Population Density
+
+The number of people in a country, divided by the amount land area.![](figure-png/spaghetti-4.png)<!-- -->
+
 
 # Session Information
 For the sake of documentation and reproducibility, the current report was rendered on a system using the following software.
 
 ```
-Report rendered by wibeasley at 2017-01-27, 21:00 -0600 in 4 seconds.
+Report rendered by wibeasley at 2017-01-27, 21:13 -0600 in 5 seconds.
 ```
 
 ```
