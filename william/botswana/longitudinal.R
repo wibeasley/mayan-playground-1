@@ -26,7 +26,10 @@ ds <- readr::read_csv(path_input) # 'ds' stands for 'datasets'
 
 # ---- tweak-data --------------------------------------------------------------
 ds <- ds %>%
-  dplyr::filter(country=="Botswana")
+  dplyr::filter(country=="Botswana") %>%
+  dplyr::mutate(
+    completion_proportion = completion / 100
+  )
 
 
 # ---- marginals ---------------------------------------------------------------
@@ -37,10 +40,19 @@ ds <- ds %>%
 # ---- spaghetti ------------------------------------------------------------
 g1 <- ggplot(ds, aes(x=year, y=life_expectancy, group=country, color=country)) +
   # geom_smooth(method="loess", span=2) +
-  geom_line(alpha=.4) +
-  geom_point(shape=1, alpha=.3) +
+  geom_line(alpha=.4, na.rm=TRUE) +
+  geom_point(shape=1, alpha=.3, na.rm=TRUE) +
   theme_light() +
-  theme(axis.ticks = element_blank())
+  theme(plot.title = element_text(hjust = 0.5)) +
+  theme(axis.ticks = element_blank()) +
+  labs(x=NULL, y="Life Expectancy", title="Changes in Life Expectancy")
+
+cat("\n\n### Life Expectancy\n\n")
 g1
 
-# g1 %+% aes(color=carburetor_count_f)
+cat("\n\n### Primary School Completion\n\n")
+cat("Primary completion rate is the percentage of students completing the last year of primary school. It is calculated by taking the total number of students in the last grade of primary school, minus the number of repeaters in that grade, divided by the total number of children of official graduation age. The ratio can exceed 100% due to over-aged and under-aged children who enter primary school late/early and/or repeat grades. United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.")
+g1 %+% aes(y=completion_proportion) +
+  scale_y_continuous(labels = scales::percent) +
+  labs(y="Percent Complete", title="Rates of Completing Primary School")
+

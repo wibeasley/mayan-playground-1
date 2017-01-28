@@ -42,14 +42,21 @@ This report covers the graphs of life.
 
 
 # Spaghetti Plots
+
+### Life Expectancy
+
 ![](figure-png/spaghetti-1.png)<!-- -->
+
+### Primary School Completion
+
+Primary completion rate is the percentage of students completing the last year of primary school. It is calculated by taking the total number of students in the last grade of primary school, minus the number of repeaters in that grade, divided by the total number of children of official graduation age. The ratio can exceed 100% due to over-aged and under-aged children who enter primary school late/early and/or repeat grades. United Nations Educational, Scientific, and Cultural Organization (UNESCO) Institute for Statistics.![](figure-png/spaghetti-2.png)<!-- -->
 
 
 # Session Information
 For the sake of documentation and reproducibility, the current report was rendered on a system using the following software.
 
 ```
-Report rendered by wibeasley at 2017-01-27, 20:28 -0600 in 3 seconds.
+Report rendered by wibeasley at 2017-01-27, 20:46 -0600 in 3 seconds.
 ```
 
 ```
