@@ -20,16 +20,19 @@ requireNamespace("mgcv", quietly=TRUE) #For the Generalized Additive Model that 
 options(show.signif.stars=F) #Turn off the annotations on p-values
 
 path_input <- "./william/botswana/data/country-year.csv"
+size_botswana    <- c("TRUE"=3, "FALSE"=.5)
 
 # ---- load-data ---------------------------------------------------------------
 ds <- readr::read_csv(path_input) # 'ds' stands for 'datasets'
 
 # ---- tweak-data --------------------------------------------------------------
 ds <- ds %>%
-  dplyr::filter(country=="Botswana") %>%
   dplyr::mutate(
+    is_botswana           = (country=="Botswana"),
+    completion            = pmin(completion, 100),
     completion_proportion = completion / 100
-  )
+  ) %>%
+  dplyr::filter(continent=="Africa")
 
 
 # ---- marginals ---------------------------------------------------------------
@@ -38,13 +41,15 @@ ds <- ds %>%
 # histogram_discrete(d_observed=ds, variable_name="forward_gear_count_f")
 
 # ---- spaghetti ------------------------------------------------------------
-g1 <- ggplot(ds, aes(x=year, y=life_expectancy, group=country, color=country)) +
+g1 <- ggplot(ds, aes(x=year, y=life_expectancy, group=country, color=country, size=is_botswana)) +
   # geom_smooth(method="loess", span=2) +
   geom_line(alpha=.4, na.rm=TRUE) +
   geom_point(shape=1, alpha=.3, na.rm=TRUE) +
+  scale_size_manual(values=size_botswana) +
   theme_light() +
   theme(plot.title = element_text(hjust = 0.5)) +
   theme(axis.ticks = element_blank()) +
+  theme(legend.position="none") +
   labs(x=NULL, y="Life Expectancy", title="Changes in Life Expectancy")
 
 cat("\n\n### Life Expectancy\n\n")

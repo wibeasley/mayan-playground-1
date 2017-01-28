@@ -56,7 +56,7 @@ Primary completion rate is the percentage of students completing the last year o
 For the sake of documentation and reproducibility, the current report was rendered on a system using the following software.
 
 ```
-Report rendered by wibeasley at 2017-01-27, 20:46 -0600 in 3 seconds.
+Report rendered by wibeasley at 2017-01-27, 21:00 -0600 in 4 seconds.
 ```
 
 ```
