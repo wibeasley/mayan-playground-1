@@ -30,13 +30,13 @@ This report covers the analyses used in the ZZZ project (Marcus Mark, PI).
 # Summary
 
 # Graph on Continuous Time
-![](figure-png/graph-continuous-1.png)<!-- -->
+![](figure-png/graph-continuous-1.png)<!-- -->![](figure-png/graph-continuous-2.png)<!-- -->
 
 # Session Information
 For the sake of documentation and reproducibility, the current report was rendered on a system using the following software.
 
 ```
-Report rendered by Will at 2017-01-15, 16:48 -0600 in 2 seconds.
+Report rendered by Will at 2017-01-16, 15:17 -0600 in 4 seconds.
 ```
 
 ```
@@ -60,6 +60,6 @@ loaded via a namespace (and not attached):
  [6] plyr_1.8.4         dplyr_0.5.0        tools_3.4.0        grid_3.4.0         gtable_0.2.0      
 [11] DBI_0.5-1          ggthemes_3.3.0     htmltools_0.3.5    yaml_2.1.14        lazyeval_0.2.0    
 [16] rprojroot_1.1      digest_0.6.10      assertthat_0.1     tibble_1.2         readr_1.0.0       
-[21] RColorBrewer_1.1-2 evaluate_0.10      rmarkdown_1.2      labeling_0.3       stringi_1.1.2     
-[26] compiler_3.4.0     scales_0.4.1       backports_1.0.4   
+[21] RColorBrewer_1.1-2 evaluate_0.10      rmarkdown_1.2      stringi_1.1.2      compiler_3.4.0    
+[26] scales_0.4.1       backports_1.0.4   
 ```
